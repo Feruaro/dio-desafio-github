@@ -39,6 +39,8 @@ public class Calculadora {
 				System.out.println("Operação inválida!");
 				break;
 		}
+
+		scan.close(); // fechar o scanner após a impressão das entradas
 		
 	}
 	
